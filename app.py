@@ -5,7 +5,7 @@ import string
 
 # Load saved models
 model = joblib.load("logistic_model.pkl")
-tfidf = joblib.load("tfidf_vectorizer.pkl,")
+tfidf = joblib.load("tfidf_vectorizer.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 
 # Text cleaning function
